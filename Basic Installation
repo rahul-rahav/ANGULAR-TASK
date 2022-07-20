@@ -1,0 +1,22 @@
+1) node js installation
+2) angular packages.
+
+Angular uses HTML CSS BOOTSTRAP Typescript - converts to Javascript
+Angular to develop front end
+Angular provides -- SOFEA (Service oriented front end architecture)
+Angularuses concept - Single Page Application (SPA)
+
+
+--**********************************--
+
+1)  npm install -g @angular/cli --------- (intalling angular --- no need to repeat) 
+2)  ng new ProjectName -------- (creating angular project)
+3)	cd ProjectName ------- (change directory to project)
+4) ng serve ----- (to run the program in local host)
+
+
+--**********************************--
+
+
+ROUTING : navigation from one voew to other view
+

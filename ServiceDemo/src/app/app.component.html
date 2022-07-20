@@ -1,0 +1,25 @@
+<div class=""container>
+  <h1 class="heading">PRODUCT SERVICES -RAHUL RAGHAVENDER </h1>
+  <br>
+  <button type="button" (click)="getProducts()"> Get Products</button>
+  <br>
+  <br>
+  <div>
+    <table class="table">
+<thead>
+  <tr>
+    <th>ID</th>
+    <th>NAME</th>
+    <th>PRICE</th>
+  </tr>
+</thead>
+<tbody>
+  <tr *ngFor="let product of products;">
+    <td>{{product.productID}}</td>
+    <td>{{product.name}}</td>
+    <td>{{product.price}}</td>
+  </tr>
+</tbody>
+    </table>
+  </div>
+</div>

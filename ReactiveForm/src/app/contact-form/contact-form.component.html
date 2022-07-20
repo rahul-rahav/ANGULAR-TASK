@@ -1,0 +1,31 @@
+<div class="row justify-content-center">
+    <div class="col-md-5 text-left rounded shadow py-5  ">
+
+        <form [formGroup]="myReactiveForm" (ngSubmit)="onSubmit()">
+            <div>
+                <div class="mb-3 ">
+                    <label for="username" class="form-label">UserName*</label>
+                    <input type="text" autocomplete="off" formControlName="username" class="form-control" id="username" placeholder="Enter User Name"
+                        aria-describedby="emailHelp">
+
+                </div>
+                <div class="mb-3 ">
+                    <label for="email" class="form-label">Email*</label>
+                    <input type="email" formControlName="email" autocomplete="off" email class="form-control" id="email" placeholder="Enter email">
+
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="course" class="form-label">Select Course</label>
+                <select formControlName="course" class="form-select form-select-md mb-3" aria-label=".form-select-lg example">
+                    <option value="1">Angular</option>
+                    <option value="2">HTML-CSS</option>
+                    <option value="3">React</option>
+                </select>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+    </div>
+</div>
